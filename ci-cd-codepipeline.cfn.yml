@@ -30,7 +30,7 @@ Parameters:
     MaxLength: 100
     ConstraintDescription: You must enter a GitHub repository branch name
 
-  GitHubToken:
+  GitHubToken: 
     Type: String
     NoEcho: true
     Description: GitHub API token - see https://github.com/blog/1509-personal-api-tokens
@@ -40,7 +40,7 @@ Parameters:
 
   GitHubUser:
     Type: String
-    Default: SudKul
+    Default: chipolesley
     Description: GitHub username or organization
     MinLength: 3
     MaxLength: 100
